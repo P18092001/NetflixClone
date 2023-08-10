@@ -1,0 +1,49 @@
+/* Add these styles to your Nav.css file */
+
+/* Navbar */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    transition: background-color 0.4s ease-in-out;
+    z-index: 100;
+  }
+  
+  /* Logo */
+  .nav_logo {
+    object-fit: contain;
+    width: 100px; /* Adjust the width as needed */
+    margin-left: 20px;
+  }
+  
+  /* Logout Button */
+  .logout-button {
+    background: none;
+    border: none;
+    color: rgb(122, 76, 76);
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-left: 20px;
+  }
+  
+  /* Change background color when scrolled */
+  .nav_black {
+    background-color: #111;
+  }
+  
+  .nav_link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
